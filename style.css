@@ -1,0 +1,30 @@
+body {
+  background-color: rgba(20, 20, 20, 1);
+  color: #f3f3f3;
+  font-family: 'Roboto', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.friend {
+  background-color: rgba(224, 207, 207, 0.062);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+.friend > h3 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 0;
+}
